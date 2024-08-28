@@ -1,4 +1,10 @@
+%% Assignment #1
+% Author: Giorgio Manca
+
+
+%% Matlab Reset
 clear;
+close all;
 clc;
 
 

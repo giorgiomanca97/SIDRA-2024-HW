@@ -1,9 +1,15 @@
+%% Assignment #2
+% Author: Giorgio Manca
+
+
+%% Matlab Reset
 clear;
+close all;
 clc;
 
 
 %% Matlab Settings
-rng(2024);    % For reproducibility
+rng(2024);  % For reproducibility
 
 
 %% Parameters
