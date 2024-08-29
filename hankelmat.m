@@ -1,5 +1,5 @@
 function H = hankelmat(V, L, T)
-% HANKELMAT - Compute the hankel matrix of
+% HANKELMAT - Compute the Hankel matrix of
 %   the vector sequence V.
 %
 %   Syntax

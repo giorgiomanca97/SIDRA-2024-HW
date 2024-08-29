@@ -278,7 +278,7 @@ set(groot, "defaultLegendInterpreter", "none");
 
 
 %% Export Figures
-PlotSize = [520, 210];
+PlotSize = [520, 360];
 LineWidth = 1.0;
 FontSize = 14;
 FileDir = "Figures/";

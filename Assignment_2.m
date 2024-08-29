@@ -324,8 +324,8 @@ times_cl = 0:ts_cl:tf_cl;   % Closed-loop sample times vector
 x0_cl_mag = 1.0;
 x0_cl = x0_cl_mag .* 2 .* (rand([n+p, 1]) - 0.5);
 
-D_cl = [0.1; 0.2; 0.3; 0.4];
-R_cl = pi/3;
+D_cl = D;
+R_cl = R;
 
 
 %% Closed-Loop 1a
@@ -494,7 +494,7 @@ set(groot, "defaultLegendInterpreter", "none");
 
 
 %% Export Figures
-PlotSize = [520, 210];
+PlotSize = [520, 360];
 LineWidth = 1.0;
 FontSize = 14;
 FileDir = "Figures/";
